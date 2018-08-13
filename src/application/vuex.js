@@ -1,0 +1,15 @@
+import { vuex as dashboardCMP } from './dashboard'
+import { vuex as globalCMP } from './global'
+import { vuex as loginCMP } from './login'
+import { vuex as settingsCMP } from './settings'
+import { vuex as reportsCMP } from './reports'
+import { vuex as productsCMP } from './products'
+import { vuex as membersCMP } from './members'
+import { vuex as salesCMP } from './sales'
+import { vuex as bonusCMP } from './bonus'
+import { vuex as smartLibraryCMP } from './smart-library'
+import { vuex as stockistCMP } from './stockist'
+import { vuex as campaignsCMP } from './campaigns'
+import { vuex as eWalletCMP } from './ewallet'
+
+export default {dashboardCMP, globalCMP, loginCMP, settingsCMP, reportsCMP, productsCMP, membersCMP, salesCMP, bonusCMP, smartLibraryCMP, stockistCMP, campaignsCMP, eWalletCMP}

@@ -1,0 +1,7 @@
+export { default as ItemsTab } from './items.vue'
+export { default as PaymentTab } from './payment.vue'
+export { default as ShippingTab } from './shipping.vue'
+export { default as MemberInformationTab } from './memberInformation.vue'
+export { default as MemberAddressesTab } from './memberAddresses.vue'
+export { default as MemberIdImagesTab } from './memberIDImages.vue'
+export { default as CorporateDetail } from './corporateDetail.vue'

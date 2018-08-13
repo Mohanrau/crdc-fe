@@ -1,0 +1,5 @@
+export { default as PriceTab } from './price'
+export { default as LocationTab } from './location'
+export { default as GeneralTab } from './general'
+export { default as DescriptionTab } from './description'
+export { default as ImageTab } from './image'

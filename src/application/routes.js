@@ -1,0 +1,15 @@
+import { routes as dashboard } from './dashboard'
+import { routes as settings } from './settings'
+import { routes as reports } from './reports'
+import { routes as products } from './products'
+import { routes as members } from './members'
+import { routes as sales } from './sales'
+import { routes as bonus } from './bonus'
+import { routes as smartLibrary } from './smart-library'
+import { routes as stockist } from './stockist'
+import { routes as procurement } from './procurement'
+import { routes as inventory } from './inventory'
+import { routes as wallet } from './ewallet'
+import { routes as campaigns } from './campaigns'
+
+export default [...dashboard, ...products, ...members, ...sales, ...bonus, ...stockist, ...procurement, ...inventory, ...wallet, ...campaigns, ...smartLibrary, ...settings, ...reports]

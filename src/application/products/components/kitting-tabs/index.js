@@ -1,0 +1,6 @@
+export { default as KittingTab } from './kitting'
+export { default as ImageTab } from './image'
+export { default as LocationTab } from './location'
+export { default as GeneralTab } from './general'
+export { default as DescriptionTab } from './description'
+export { default as PriceTab } from './price'
