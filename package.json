@@ -1,8 +1,8 @@
 {
-  "name": "elken-nibs",
-  "version": "0.7.0",
-  "description": "iElken Front-End",
-  "productName": "Elken IBS Backoffice",
+  "name": "crdc-fe",
+  "version": "0.1.0",
+  "description": "Front-End",
+  "productName": "Backoffice",
   "cordovaId": "org.cordova.quasar.app",
   "author": "Mohanrau Francis",
   "private": true,
