@@ -6,24 +6,12 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="row gutter-xs">
                         <div class="col-lg-3 col-md-12 col-xs-12">
-                            <q-select
-                                    clearable
-                                    ref="memberCountrySelector"
-                                    inverted-light
-                                    class="no-shadow custom-input-border"
-                                    color="white text-black"
-                                    v-model="filterData.countryID"
-                                    :options="countriesOptions.options"
-                                    :placeholder="$t('general.select.country')"
-                            />
-                        </div>
-                        <div class="col-lg-3 col-md-12 col-xs-12">
                             <q-input clearable
                                      v-model="filterData.filterTerms"
                                      inverted-light
                                      class="no-shadow custom-input-border"
                                      color="white text-black"
-                                     :placeholder="$t('members.iboIbName.label')">
+                                     placeholder="User Filters">
                             </q-input>
                         </div>
                         <div class="col-lg-3 col-md-12 col-xs-12">
@@ -39,17 +27,6 @@
                                     class="no-shadow custom-input-border"
                                     color="white text-black"
                                     :placeholder="$t('members.IC.verificationStatus')"
-                            />
-                        </div>
-                        <div class="col-lg-3 col-md-12 col-xs-12">
-                            <q-select
-                                    clearable
-                                    :options="mixedFilterOptions"
-                                    v-model="filterData.filterMixedFilters"
-                                    inverted-light
-                                    class="no-shadow custom-input-border"
-                                    color="white text-black"
-                                    :placeholder="$t('Common.Filters.MoreFilters.Placeholder')"
                             />
                         </div>
                     </div>

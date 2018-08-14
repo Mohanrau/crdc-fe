@@ -9,7 +9,6 @@
                             <div class="row items-center ">
                                 <div class="col-lg-auto">
                                     <q-btn
-                                            :loading="isProcessing || isProcessingForm || isProcessingTable || isProcessingSection || isProcessingList"
                                             class="text-f263b7 full-height" flat
                                             @click="leftDrawerOpen = !leftDrawerOpen">
                                         <q-icon name="menu"></q-icon>

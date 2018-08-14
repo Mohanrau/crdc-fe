@@ -20,7 +20,7 @@
                             ref="transactionLocationIDSelector"
                             v-model="transactionLocationID"
                             :options="locationsOptionsByCountry"
-                            :placeholder="$t('general.select.transactionLocation')"
+                            placeholder="Daily Collection"
                             @input="getCharts"
                     />
                 </div>
@@ -83,14 +83,14 @@
     data() {
       return {
         recentSalesData: {
-          label: this.$t('Dashboard.Chart.RecentSales'),
+          label: 'All Collections',
           data: [],
           borderColor: '--q-color-primary',
           backgroundColor: 'rgba(0,0,0,0)',
           pointBackgroundColor: '--q-color-primary'
         },
         todaySalesData: {
-          label: this.$t('Dashboard.Chart.TodaySales'),
+          label: 'Todays Collections',
           data: [],
           borderDash: [5, 5],
           backgroundColor: 'rgba(0,0,0,0)',
