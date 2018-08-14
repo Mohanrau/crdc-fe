@@ -1,6 +1,6 @@
 <template>
     <q-inner-loading :visible="visible">
-        <q-spinner-dots size="50px" class="text-f263b7" :class="{'fixed-center' : fixedCenter}"></q-spinner-dots>
+        <q-spinner-dots size="50px" class="text-amber" :class="{'fixed-center' : fixedCenter}"></q-spinner-dots>
         {{ message }}
     </q-inner-loading>
 </template>

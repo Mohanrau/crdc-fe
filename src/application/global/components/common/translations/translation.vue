@@ -1,7 +1,7 @@
 <template>
     <q-select
             :disable="languageOptions.options.length === 0"
-            class="bg-f263b7"
+            class="bg-amber"
             :inverted="inverted"
             v-model="lang"
             :options="languageOptions.options"

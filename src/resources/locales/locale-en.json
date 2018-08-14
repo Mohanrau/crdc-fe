@@ -3,7 +3,7 @@
   "Common.menu.wallet_management": "Wallet Management",
   "Common.menu.sub.ewallet": "eWallet",
   "Common.menu.inventory_management": "Inventory Management",
-  "Common.menu.members.management": "Members Management",
+  "Common.menu.members.management": "User Management",
   "Common.menu.sub.members.personalList": "Personal Data List",
   "Common.menu.sub.members.setup": "Member Setup",
   "Common.menu.sub.members.placementTree": "Placement Tree Diagram",

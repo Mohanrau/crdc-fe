@@ -24,37 +24,37 @@ export default [
           icon: 'report',
           menuItem: true
         }
-      },
-      {
-        path: MODULE_PATH + 'invoice-summary',
-        component: load('application/reports/components/TaxInvoiceSummaryReport'),
-        name: 'Tax Invoice Summary Report',
-        meta: {
-          title: 'Tax Invoice Summary List',
-          icon: 'report',
-          menuItem: true
-        }
-      },
-      {
-        path: MODULE_PATH + 'invoice-by-product',
-        component: load('application/reports/components/TaxInvoiceByProductDetailReport'),
-        name: 'Tax Invoice By Product Detail Report',
-        meta: {
-          title: 'Tax Invoice By Product Detail Report',
-          icon: 'report',
-          menuItem: true
-        }
-      },
-      {
-        path: MODULE_PATH + 'product-sales-report',
-        component: load('application/reports/components/ProductSalesReport'),
-        name: 'Product Sales Report',
-        meta: {
-          title: 'Product Sales Report',
-          icon: 'report',
-          menuItem: true
-        }
       }
+      // {
+      //   path: MODULE_PATH + 'invoice-summary',
+      //   component: load('application/reports/components/TaxInvoiceSummaryReport'),
+      //   name: 'Tax Invoice Summary Report',
+      //   meta: {
+      //     title: 'Tax Invoice Summary List',
+      //     icon: 'report',
+      //     menuItem: true
+      //   }
+      // },
+      // {
+      //   path: MODULE_PATH + 'invoice-by-product',
+      //   component: load('application/reports/components/TaxInvoiceByProductDetailReport'),
+      //   name: 'Tax Invoice By Product Detail Report',
+      //   meta: {
+      //     title: 'Tax Invoice By Product Detail Report',
+      //     icon: 'report',
+      //     menuItem: true
+      //   }
+      // },
+      // {
+      //   path: MODULE_PATH + 'product-sales-report',
+      //   component: load('application/reports/components/ProductSalesReport'),
+      //   name: 'Product Sales Report',
+      //   meta: {
+      //     title: 'Product Sales Report',
+      //     icon: 'report',
+      //     menuItem: true
+      //   }
+      // }
     ]
   }
 ]

@@ -124,97 +124,97 @@ export default [
             props: true
           }
         ]
-      },
-      {
-        path: MODULE_PATH + 'master/setup',
-        component: load('application/settings/components/master/Masters'),
-        name: 'Master',
-        redirect: MODULE_PATH + 'master/setup/list',
-        meta: {
-          title: 'masters.sideMenu.masters.title',
-          menuItem: true,
-          requiresAuth: true
-        },
-        children: [
-
-          {
-            path: MODULE_PATH + 'master/setup/list',
-            component: load('application/settings/components/master/MasterList'),
-            name: 'Masters List',
-            meta: {
-              title: 'general.master_list.text',
-              icon: 'developer board',
-              menuItem: true
-            }
-          },
-          {
-            path: MODULE_PATH + 'master/setup/create',
-            component: load('application/settings/components/master/forms/createMasterForm'),
-            name: 'Create Master',
-            meta: {
-              title: 'general.create_master.text',
-              icon: 'add',
-              menuItem: true
-            }
-          },
-          {
-            path: MODULE_PATH + 'master/setup/[:masterId]/update',
-            component: load('application/settings/components/master/forms/updateMasterForm'),
-            name: 'Update Master',
-            props: true,
-            meta: {
-              title: 'general.update_master.text',
-              icon: 'create',
-              menuItem: false
-            }
-          }
-        ]
-      },
-      {
-        path: MODULE_PATH + 'master/setup/data',
-        component: load('application/settings/components/master/MastersData'),
-        name: 'Master Data',
-        redirect: MODULE_PATH + '/master/setup/data/list',
-        meta: {
-          title: 'Master Data Setup',
-          menuItem: true,
-          requiresAuth: true
-        },
-        children: [
-          {
-            path: MODULE_PATH + 'master/setup/data/list',
-            component: load('application/settings/components/master/MasterDataList'),
-            name: 'Masters Data List',
-            props: true,
-            meta: {
-              title: 'Masters Data List',
-              icon: 'memory',
-              menuItem: true
-            }
-          },
-          {
-            path: MODULE_PATH + 'master/setup/data/create',
-            component: load('application/settings/components/master/forms/createMasterDataForm'),
-            name: 'Create Master Data',
-            meta: {
-              title: 'Create Master Data',
-              icon: 'add',
-              menuItem: true
-            }
-          },
-          {
-            path: MODULE_PATH + 'master/setup/data/[:masterDataId]/update',
-            component: load('application/settings/components/master/forms/updateMasterDataForm'),
-            name: 'Update Master Data',
-            props: true,
-            meta: {
-              title: 'Update Master Data',
-              icon: 'create',
-              menuItem: false
-            }
-          }
-        ]
       }
+      // {
+      //   path: MODULE_PATH + 'master/setup',
+      //   component: load('application/settings/components/master/Masters'),
+      //   name: 'Master',
+      //   redirect: MODULE_PATH + 'master/setup/list',
+      //   meta: {
+      //     title: 'masters.sideMenu.masters.title',
+      //     menuItem: true,
+      //     requiresAuth: true
+      //   },
+      //   children: [
+      //
+      //     {
+      //       path: MODULE_PATH + 'master/setup/list',
+      //       component: load('application/settings/components/master/MasterList'),
+      //       name: 'Masters List',
+      //       meta: {
+      //         title: 'general.master_list.text',
+      //         icon: 'developer board',
+      //         menuItem: true
+      //       }
+      //     },
+      //     {
+      //       path: MODULE_PATH + 'master/setup/create',
+      //       component: load('application/settings/components/master/forms/createMasterForm'),
+      //       name: 'Create Master',
+      //       meta: {
+      //         title: 'general.create_master.text',
+      //         icon: 'add',
+      //         menuItem: true
+      //       }
+      //     },
+      //     {
+      //       path: MODULE_PATH + 'master/setup/[:masterId]/update',
+      //       component: load('application/settings/components/master/forms/updateMasterForm'),
+      //       name: 'Update Master',
+      //       props: true,
+      //       meta: {
+      //         title: 'general.update_master.text',
+      //         icon: 'create',
+      //         menuItem: false
+      //       }
+      //     }
+      //   ]
+      // },
+      // {
+      //   path: MODULE_PATH + 'master/setup/data',
+      //   component: load('application/settings/components/master/MastersData'),
+      //   name: 'Master Data',
+      //   redirect: MODULE_PATH + '/master/setup/data/list',
+      //   meta: {
+      //     title: 'Master Data Setup',
+      //     menuItem: true,
+      //     requiresAuth: true
+      //   },
+      //   children: [
+      //     {
+      //       path: MODULE_PATH + 'master/setup/data/list',
+      //       component: load('application/settings/components/master/MasterDataList'),
+      //       name: 'Masters Data List',
+      //       props: true,
+      //       meta: {
+      //         title: 'Masters Data List',
+      //         icon: 'memory',
+      //         menuItem: true
+      //       }
+      //     },
+      //     {
+      //       path: MODULE_PATH + 'master/setup/data/create',
+      //       component: load('application/settings/components/master/forms/createMasterDataForm'),
+      //       name: 'Create Master Data',
+      //       meta: {
+      //         title: 'Create Master Data',
+      //         icon: 'add',
+      //         menuItem: true
+      //       }
+      //     },
+      //     {
+      //       path: MODULE_PATH + 'master/setup/data/[:masterDataId]/update',
+      //       component: load('application/settings/components/master/forms/updateMasterDataForm'),
+      //       name: 'Update Master Data',
+      //       props: true,
+      //       meta: {
+      //         title: 'Update Master Data',
+      //         icon: 'create',
+      //         menuItem: false
+      //       }
+      //     }
+      //   ]
+      // }
     ]
   }
 ]

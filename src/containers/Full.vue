@@ -145,8 +145,8 @@
                         <div class="header-logo">
                             <div class="col-12">
                                 <div class="row justify-center">
-                                    <div class="col-10">
-                                        <img class="logo responsive" src="~assets/logo.png">
+                                    <div class="col-auto">
+                                        <p class="q-body-1 q-mt-md text-white text-weight-bolder">Credit Control v 0.1</p>
                                     </div>
                                 </div>
                             </div>

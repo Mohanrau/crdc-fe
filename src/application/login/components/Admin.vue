@@ -5,7 +5,7 @@
       <div class="login-area-header col-10 mt-10">
         <div class="row justify-between items-end" :class="{'justify-around': !isDesktop}">
           <div class="col-auto" :class="{'text-grey-1': isDesktop}">
-            <q-btn flat class="pd-10">Credit Control v0.1</q-btn>
+            <q-btn flat class="pd-10">Credit Control v 0.1</q-btn>
           </div>
           <div class="col-auto text-white">
             <language :inverted="true"></language>
@@ -23,6 +23,11 @@
             <div :class="{'shadow-16': isDesktop}" class="col-lg-4 bg-white">
               <q-card class="login-card shadow-0 text-black relative-position custom-border">
                 <div v-if="isLoginAction" class="login-area-login">
+                  <div class="row justify-center no-margin bg-black pd-20">
+                    <div class="col-auto mt-10">
+                      <q-display-1 class="text-white text-weight-bolder">Credit Control v 0.1</q-display-1>
+                    </div>
+                  </div>
                   <q-card-main>
                     <form class="form" @submit.prevent="onSubmit"
                           @keyup.enter="onSubmit"
@@ -67,7 +72,7 @@
                                loader
                                :value="isProcessing"
                                :disabled="isProcessing"
-                               class="fit bg-positive"
+                               class="fit bg-amber"
                                @click="onSubmit">
                         <span slot="loading">
               <q-spinner-tail class="on-left"/>
@@ -81,7 +86,7 @@
                                key="reset-btn"
                                small
                                flat
-                               class="fit text-f263b7"
+                               class="fit text-grey-6"
                                @click="isLogin(false)">
                           {{ $t('Login.ResetPasswordBtn') }}
                         </q-btn>
@@ -175,7 +180,7 @@
                       <div class="col-12">
                         <q-btn block
                                key="login-btn"
-                               color="pink-12"
+                               color="grey-3"
                                :value="isProcessing"
                                :disabled="isProcessing"
                                class="fit"
@@ -192,7 +197,7 @@
                                key="reset-btn"
                                small
                                flat
-                               color="pink-3"
+                               color="grey-3"
                                class="fit"
                                :disable="isProcessing"
                                @click="isLogin(true)">
@@ -211,6 +216,11 @@
       <div class="login-area-footer col-10 pd-10 desktop-show" :class="{'text-grey-1': isDesktop}">
         <div class="row justify-center text-center">
           <div class="col-12">
+            <p class="uppercase">
+              <small>© Copyright by Credit Control
+                All Rights Reserved {{ getCurrentYear() }}
+              </small>
+            </p>
           </div>
         </div>
       </div>
